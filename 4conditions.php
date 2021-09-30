@@ -15,7 +15,35 @@
       echo "Pas cool";
     }
     $variable = 12;
-    
+    if($variable <= 15 ) { 
+      echo "Moyen pas ouf";
+    } else {
+      echo "Magnifique";
+    }
+    // != signifie différent de
+    // === vérifie le contenu et le type
+
+    //opérateur combiné
+    $a = 50;
+    $b = 40;
+    echo ($a <=> $b);
+    // -1 si a est inférieur à b
+    // 0 si a = b
+    // 1 si a est plus grand que b
+
+    //switch 
+    $animal = "Chat";
+    switch ($animal) {
+      case "Chat":
+        echo "Félin";
+        break;
+      case "Poisson rouge":
+        echo "Poisson";
+        break;
+      case "Perroquet":
+        echo "Oiseau";
+        break;
+    }
   ?>
 </body>
 </html>
